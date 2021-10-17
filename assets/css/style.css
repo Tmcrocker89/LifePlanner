@@ -8,6 +8,10 @@
   html {
     font-size: 62.5%;
   }
+
+  body{
+    background-color: lightgray;
+  }
   
   .calendar {
     
@@ -156,7 +160,7 @@ footer a {
   position: relative;
   display: flex;
   min-width: 100%;
-  border-bottom: 1px solid #ee6e73;
+  border-bottom: 1px solid lightgray;
 }
 .delEvent{
   position: absolute;
@@ -167,4 +171,11 @@ footer a {
   position: absolute;
   bottom: 0px;
   width: 100%;
+  background-color: lightgray;
+  color: black;
+}
+
+#greyNav{
+  background-color: lightgray;
+  color: black;
 }
